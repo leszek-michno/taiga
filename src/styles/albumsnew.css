@@ -1,0 +1,84 @@
+.album-sec {
+  width: 100%;
+  text-align: center;
+  margin: 0;
+}
+.album-sec a {
+  display: inline-block;
+  margin: 0;
+}
+
+.album-sec img {
+    max-width: auto;
+    height: 45vh;
+    margin-left: 2px;
+}
+
+.album-sec p {
+  margin: 10px 0 10px 2%;  
+  text-align: left;
+  font-size: 18px;
+}
+
+@media screen and (max-width: 1580px) {
+  .album-sec img {
+    max-width: 100%;
+    height: auto;
+    margin: 0;
+  }
+    .album-sec img {
+      max-width: auto;
+      height: 70vh;
+      margin-left: 2px;
+  }
+}
+
+@media screen and (max-width: 1350px) {
+      .album-sec img {
+        max-width: 100%;
+        height: auto;
+        margin: 0;
+      }
+        .album-sec img {
+          max-width: auto;
+          height: 600px;
+          margin-left: 2px;
+      }
+}
+@media screen and (max-width: 900px) {
+  .album-sec img {
+    max-width: 100%;
+    height: auto;
+    margin: 0;
+  }
+    .album-sec img {
+      max-width: auto;
+      height: 500px;
+      margin-left: 2px;
+  }
+
+}
+@media screen and (max-width: 750px) {
+  .album-sec img {
+    max-width: 100%;
+    height: auto;
+    margin: 0;
+  }
+    .album-sec img {
+      max-width: auto;
+      height: 400px;
+      margin-left: 2px;
+  }
+
+}
+
+
+@media screen and (max-width: 500px) {
+  .album-sec img {
+    max-width: 100%;
+    height: auto;
+    margin: 0;
+  }
+  
+}
+

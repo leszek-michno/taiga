@@ -1,0 +1,14 @@
+.contact {
+    margin-top: 300px;
+    text-align: center;
+}
+
+.contact a {
+    color: black;
+    margin: 10px;
+    font-size: 30px;
+}
+
+.contact p {
+    margin-top: 20px;
+}

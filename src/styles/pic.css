@@ -1,0 +1,45 @@
+.pic-div {
+width: 100%;
+text-align: center;
+margin-top: 120px;
+}
+
+.pic-div img {
+    max-width: 100%;
+}  
+
+@media screen and (max-width: 1400px) {
+    .pic-div img {
+      width: 100%;
+      height: auto;
+      margin: 0;
+    }
+    .pic-div a {
+        width: 100%;
+        margin: 0;
+    } 
+ }
+
+ @media screen and (max-width: 1400px) {
+  .pic-div img {
+    width: 100%;
+    height: auto;
+    margin: 0;
+  }
+  .pic-div a {
+      width: 100%;
+      margin: 0;
+  } 
+}
+
+@media screen and (max-width: 800px) {
+    .pic-div img {
+      width: 100%;
+      height: auto;
+      margin: 0;
+    }
+    .pic-div a {
+        width: 100%;
+        margin: 0;
+    } 
+ }
