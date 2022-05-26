@@ -114,32 +114,32 @@ const App = () => {
             {(toggleMenu || screenWidth > 600) && (
                 <ul className="list">
                   <li>
-                    <NavLink onClick={toggleNav} to="/" exact>
+                    <NavLink onClick={toggleNav} to="/">
                       start
                     </NavLink>
                   </li>
                   <li>
-                    <NavLink onClick={toggleNav} to="/contacts" exact>
+                    <NavLink onClick={toggleNav} to="/contacts">
                       kontakt
                     </NavLink>
                   </li>
                   <li>
-                    <NavLink onClick={toggleNav} to="/draw" exact>
+                    <NavLink onClick={toggleNav} to="/draw">
                       rysunki
                     </NavLink>
                   </li>
                   <li>
-                    <NavLink onClick={toggleNav} to="/digital" exact>
+                    <NavLink onClick={toggleNav} to="/digital">
                       digital
                     </NavLink>
                   </li>
                   <li>
-                    <NavLink onClick={toggleNav} to="/sketch" exact>
+                    <NavLink onClick={toggleNav} to="/sketch">
                       szkice
                     </NavLink>
                   </li>
                   <li>
-                    <NavLink onClick={toggleNav} to="/pictures" exact>
+                    <NavLink onClick={toggleNav} to="/pictures">
                       malarstwo
                     </NavLink>
                   </li>
@@ -151,13 +151,13 @@ const App = () => {
             </nav>
           </div>
           <Routes>
-            <Route path="/" exact element={<Home />} />
-            <Route path="/contacts" exact element={<Contact />} />
-            <Route path="/albums" exact element={<Albums />} />
-            <Route path="/draw" exact element={<Draws />} />
-            <Route path="/pictures" exact element={<Pictures />} />
-            <Route path="/digital" exact element={<Digital />} />
-            <Route path="/sketch" exact element={<Sketches />} />
+            <Route path="/" element={<Home />} />
+            <Route path="/contacts" element={<Contact />} />
+            <Route path="/albums" element={<Albums />} />
+            <Route path="/draw" element={<Draws />} />
+            <Route path="/pictures" element={<Pictures />} />
+            <Route path="/digital" element={<Digital />} />
+            <Route path="/sketch" element={<Sketches />} />
                         
             <Route path="/pic" element={<PicS1 />} />
             <Route path="/pic2" element={<PicS2 />} />
